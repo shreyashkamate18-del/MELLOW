@@ -1,0 +1,45 @@
+Mega Prompt: Build a Personal Expense Tracker
+Build a complete, polished Personal Expense Tracker web app. The goal is to help users record everyday spending, see where their money goes, and stay within a monthly budget.
+Build requirements
+Create a responsive app that works well on desktop and mobile. Use a clean, modern design with clear navigation, readable typography, and accessible color contrast.
+Dashboard
+Show:
+- Total spending for the current month
+- Remaining monthly budget
+- Number of expenses this month
+- A category breakdown with a chart
+- A recent transactions list
+- A clear visual indicator when spending is close to or over budget
+Add and manage expenses
+Users should be able to add an expense with:
+- Amount
+- Category
+- Date
+- Optional note
+Support editing and deleting expenses. Validate inputs, show helpful error messages, and ask for confirmation before deleting an expense.
+Include default categories such as Food, Transport, Shopping, Bills, Health, Entertainment, and Other. Let users create, rename, and remove custom categories.
+Budgets
+Let users set a monthly spending budget. Show how much they have spent and how much remains. If spending reaches 80% of the budget, show a gentle warning. If spending exceeds the budget, make that clear without blocking the user from adding expenses.
+Search and filters
+Allow users to search notes and filter expenses by:
+- Date range
+- Category
+- Minimum and maximum amount
+Let users sort transactions by newest, oldest, highest amount, or lowest amount.
+Data and persistence
+Save expenses, categories, and budget settings so they remain available after the page is refreshed. If a backend or database is available, use it. Otherwise, use browser storage and make that limitation clear in the app.
+Provide sample transactions for a first-time user, with an option to clear the sample data.
+User experience
+Include:
+- Empty states with clear instructions
+- Loading and error states where appropriate
+- Success feedback after saving changes
+- A confirmation dialog before clearing all data
+- Currency selection, with a sensible default
+- A simple settings area for budget and currency
+Suggested layout
+Use a sidebar or compact top navigation with Dashboard, Transactions, and Settings. Keep the main dashboard focused on the summary and recent activity. Place the full searchable transaction list on the Transactions page.
+Quality expectations
+Make the app feel finished and easy to use, not like a bare demo. Use consistent spacing, reusable components, and realistic sample data. Ensure forms work, buttons perform their labeled actions, and layouts adapt to smaller screens.
+Final checks
+Before finishing, confirm that a user can add, edit, filter, and delete expenses; change the budget and currency; refresh the page without losing saved data; and use the app on a phone-sized screen.
